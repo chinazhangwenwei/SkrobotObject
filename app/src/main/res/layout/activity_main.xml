@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fm_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.interjoy.skrobotrecongnize.activity.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="true"
+        android:fitsSystemWindows="true">
+
+
+        <SurfaceView
+            android:id="@+id/sv_camera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/close" />
+
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+
+            android:scaleType="centerCrop"
+            android:src="@drawable/skeye" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/small_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom|center"
+        android:visibility="invisible">
+
+
+        <com.interjoy.skrobotrecongnize.widget.BolderTextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/dialog"
+            android:gravity="center"
+            android:paddingLeft="62dp"
+            android:paddingRight="62dp"
+            android:text="你好你叫什么名字"
+            android:textColor="@android:color/white"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:id="@+id/iv_speaker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/speaker" />
+    </RelativeLayout>
+</FrameLayout>

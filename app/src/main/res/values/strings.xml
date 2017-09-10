@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">开眼认人</string>
+    <string name="no_camera">没有检测到摄像头</string>
+
+    <string name="boy_decorate_0">可爱的小宝宝</string>
+    <string name="boy_decorate_1">调皮的小帅哥</string>
+    <string name="boy_decorate_2">帅气的小哥哥</string>
+    <string name="boy_decorate_3">潇洒的帅哥</string>
+    <string name="boy_decorate_4">英俊的大哥哥</string>
+    <string name="boy_decorate_5">成熟的叔叔</string>
+    <string name="boy_decorate_6">和蔼的爷爷</string>
+
+    <string name="boy_glass_decorate_0">戴眼镜的宝宝</string>
+    <string name="boy_glass_decorate_1">戴眼镜的小孩</string>
+    <string name="boy_glass_decorate_2">戴眼镜的小哥</string>
+    <string name="boy_glass_decorate_3">戴眼镜的帅哥</string>
+    <string name="boy_glass_decorate_4">戴眼镜的哥哥</string>
+    <string name="boy_glass_decorate_5">戴眼镜的叔叔</string>
+    <string name="boy_glass_decorate_6">戴眼镜的爷爷</string>
+
+
+    <string name="girl_decorate_0">可爱的小宝宝</string>
+    <string name="girl_decorate_1">可爱的小美女</string>
+    <string name="girl_decorate_2">文静的小姐姐</string>
+    <string name="girl_decorate_3">漂亮的美女</string>
+    <string name="girl_decorate_4">优雅的大姐姐</string>
+    <string name="girl_decorate_5">美丽的阿姨</string>
+    <string name="girl_decorate_6">慈祥的奶奶</string>
+
+    <string name="girl_glass_decorate_0">戴眼镜的宝宝</string>
+    <string name="girl_glass_decorate_1">戴眼镜的小孩</string>
+    <string name="girl_glass_decorate_2">戴眼镜的姑娘</string>
+    <string name="girl_glass_decorate_3">戴眼镜的美女</string>
+    <string name="girl_glass_decorate_4">戴眼镜的姐姐</string>
+    <string name="girl_glass_decorate_5">戴眼镜的阿姨</string>
+    <string name="girl_glass_decorate_6">戴眼镜的奶奶</string>
+
+    <string-array name="say_one_person_voices">
+        <item>有没有人呀，这里有个小男孩一直在看着我。</item>
+        <item>小朋友，你是想和我一起玩吗？</item>
+        <item>这个可爱的小男生已经快和我一样可爱了。</item>
+        <item>小哥哥，你比我高好多啊！</item>
+        <item>这位小哥哥，你不用去上学吗？</item>
+        <item>帅气的小哥哥我喜欢你，你也喜欢我吗？</item>
+        <item>大哥哥，你真帅，比隔壁家的哥哥还要帅气！</item>
+        <item>大哥哥你好像明星啊，特别帅气！</item>
+        <item>这位帅气的叔叔我好像不认识。</item>
+        <item>这位叔叔，你是来陪我做游戏的吗？</item>
+        <item>我面前的这位叔叔长得好帅啊！</item>
+        <item>这位老爷爷好慈祥啊！</item>
+        <item>爷爷您好可爱啊，一看性格就很乐观！</item>
+        <item>好可爱的小女孩，眼睛水汪汪的。</item>
+        <item>漂亮的小姑娘，我们做朋友吧！</item>
+        <item>一看就是个没人胚子，长大了肯定好看！</item>
+        <item>哇，这个小姐姐长大了肯定可以去当明星。！</item>
+        <item>小姐姐你笑起来真好看！</item>
+        <item>好可爱的小姐姐，以后准能变成女神。</item>
+        <item>我好像看到了仙女姐姐，好漂亮啊！</item>
+        <item>美女姐姐，你长得真好看！</item>
+        <item>这是传说中的貂蝉姐姐吗？</item>
+        <item>阿姨，你看起来好年轻啊！</item>
+        <item>好优雅的阿姨，还是那么漂亮！</item>
+        <item>奶奶奶奶，您的孙子孙女也和我一样可爱吗？</item>
+        <item>好慈祥的奶奶，您年轻时候一定是个万人迷！</item>
+    </string-array>
+    <string-array name="say_no_person_voices">
+        <item>咦，怎么都没有人。</item>
+        <item>人都去哪儿了，快来陪我玩啊！</item>
+        <item>怎么只听见声音，看不见人呢。</item>
+        <item>人呢人呢，这是要和我玩躲猫猫吗？</item>
+
+    </string-array>
+    <string-array name="say_person_change_voices">
+        <item>别晃了别晃了，晃得我头都晕了。</item>
+        <item>你是个不倒翁吗，怎么一直在晃呀。</item>
+        <item>你先别动，我都看不清你的脸了</item>
+        <item>左三圈右三圈，晃来晃去我眼都花了</item>
+
+    </string-array>
+    <string-array name="say_three_person_voices">
+        <item>看大家都这么愉快，真不愧是好朋友。</item>
+        <item>看上去这么默契，应该是同事吧。</item>
+        <item>一二三，三个人，我猜，你们是好朋友吧。</item>
+        <item>关系这么和睦，这是一家人吧！</item>
+        <item>你们一家人看起来好幸福啊！</item>
+        <item>好羡慕你们每天都可以和家人在一起。</item>
+        <item>年龄差这么多，你们是一家人对吧。</item>
+        <item>长得好像啊，我猜你们是一家人。</item>
+
+    </string-array>
+    <string-array name="say_four_person_voices">
+        <item>这么多人，好热闹啊。</item>
+        <item>一个、两个、三个，好多人，我都数不清了。</item>
+        <item>这么多人陪我玩儿，我好开心啊！</item>
+        <item>让我来数数，哎呀，手指都不够用了。</item>
+
+
+    </string-array>
+
+    <string name="title_activity_launch">LaunchActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>
