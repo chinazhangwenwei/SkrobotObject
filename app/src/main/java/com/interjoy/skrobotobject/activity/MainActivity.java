@@ -506,7 +506,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ResultTag tempResult;
     private volatile int countResult = 0;
-    private static final int COUNT_STRATEGY = 4;
+    private static final int COUNT_STRATEGY = 3;
 
 
     /**
@@ -606,7 +606,7 @@ public class MainActivity extends AppCompatActivity {
     private ObjectsDescribe tempDescribe;
     private volatile int repeatResult = 0;
     private volatile String tempTag;
-    private static final int COUNT_REPEAT_STRATEGY = 3;
+    private static final int COUNT_REPEAT_STRATEGY = 4;
 
 
     private void sendHttpTag(String tag) throws Exception {
