@@ -4,7 +4,7 @@
     android:id="@+id/fm_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.interjoy.skrobotrecongnize.activity.MainActivity">
+    tools:context="com.interjoy.skrobotobject.activity.MainActivity">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -25,15 +25,28 @@
             android:scaleType="centerCrop"
             android:src="@drawable/close" />
 
-
-        <ImageView
-            android:id="@+id/iv_logo"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
+            android:orientation="horizontal">
 
-            android:scaleType="centerCrop"
-            android:src="@drawable/skeye" />
+            <ImageView
+                android:id="@+id/iv_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/switchcam" />
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:scaleType="centerCrop"
+                android:src="@drawable/skeye" />
+
+        </LinearLayout>
     </FrameLayout>
 
     <TextView
@@ -51,7 +64,7 @@
         android:visibility="invisible">
 
 
-        <com.interjoy.skrobotrecongnize.widget.BolderTextView
+        <com.interjoy.skrobotobject.widget.BolderTextView
             android:id="@+id/tv_content"
             android:layout_width="wrap_content"
             android:layout_height="80dp"

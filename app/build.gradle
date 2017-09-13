@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
     defaultConfig {
-        applicationId "com.interjoy.skrobotrecongnize"
+        applicationId "com.interjoy.skrobotobject"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1
@@ -17,11 +17,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    sourceSets {
-        main {
-            jniLibs.srcDirs = ['libs']
-        }
-    }
 
 }
 
@@ -31,11 +26,12 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile files('libs/SKFaceSDK.jar')
-
+    compile files('libs/SKEyeSDK.jar')
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
     compile 'com.alibaba:fastjson:1.1.58.android'
     compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.squareup.okhttp3:okhttp:3.9.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.5.0'
     testCompile 'junit:junit:4.12'
 }

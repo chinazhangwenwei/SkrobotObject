@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SkrobotRecongnize.iml" filepath="$PROJECT_DIR$/SkrobotRecongnize.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SkrobotObject.iml" filepath="$PROJECT_DIR$/SkrobotObject.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

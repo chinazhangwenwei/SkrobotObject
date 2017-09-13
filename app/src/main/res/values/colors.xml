@@ -7,7 +7,16 @@
     <color name="red">#ff0000</color>
     <color name="black_trans">#7f000000</color>
     <color name="text_bolder">#ff7f18</color>
-
     <color name="black_overlay">#66000000</color>
+
+
+    <color name="color1"> #009acf  </color>
+    <color name="color2"> #2cd03e  </color>
+    <color name="color3"> #ffe918  </color>
+    <color name="color4"> #ffac53  </color>
+    <color name="color5"> #ff7377  </color>
+    <color name="color6"> #ff4ab0  </color>
+    <color name="color7"> #7a60c5  </color>
+
 
 </resources>
